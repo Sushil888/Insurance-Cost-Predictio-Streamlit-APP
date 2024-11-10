@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 st.title("Insurance Premium Cost Prediction")
-insurance_df = pd.read_csv("./Insurance_data.csv")
+insurance_df = pd.read_csv("./insurance_data.csv")
 st.dataframe(insurance_df.head())
 
 st.header("Please fill in your details")
